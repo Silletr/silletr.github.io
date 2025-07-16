@@ -1,5 +1,3 @@
-# LazyDeveloperHelper.github.io (Originally: Silletr.github.io
-
 # Lazy Developer Helper [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
