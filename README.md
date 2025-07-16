@@ -20,7 +20,8 @@
 
 ## Video example
 
-![Video example of commands](https://github.com/Silletr/Silletr.github.io/blob/de9a1893f70867cfbff5f1f978259ca3ac1708d1/images/example.gif)
+![Video example of commands](https://github.com/Silletr/Silletr.github.io/raw/de9a1893f70867cfbff5f1f978259ca3ac1708d1/images/example.gif)
+
 ## Introduction
 
 Have you ever found yourself adding multiple dependencies to your code before installing them? Do you hate switching between your editor and terminal? 🤔
