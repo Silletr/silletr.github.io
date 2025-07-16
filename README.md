@@ -11,15 +11,13 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Future Features](#future-features)
-- [Roadmap](#roadmap)
 - [Install using Packer](#install-using-packer)
 - [Avaible in](#available-in)
 - [Usage](#usage)
-- [Status](#status)
 <!-- tocstop -->
 
 ## Video example
-![Video example of commands](./images/video_example.gif)
+![Video example of commands](/images/video_example.gif)
 ## Introduction
 
 Have you ever found yourself adding multiple dependencies to your code before installing them? Do you hate switching between your editor and terminal? 🤔
@@ -37,11 +35,6 @@ And plugin have Discord channel [from now](https://discord.gg/QnthFV3Zgp)
 - [x] Will be added supporting Rust-, Lua- library manager.
 - [ ] Code will be optimized better.
 
-
-## Roadmap
-Check my [TODO.md](./TODO.md) for upcoming features! Want to help? - contributions are welcome.
-
-
 ## Available in
 - [vim.org](https://www.vim.org/scripts/script.php?script_id=6156)
 - [dotfyle.com](https://dotfyle.com/plugins/Silletr/LazyDevHelper)
@@ -55,11 +48,7 @@ use 'Silletr/LazyDevHelper'
 ```
 ## Usage
 Command example:
-![Command Example](https://raw.githubusercontent.com/Silletr/LazyDevHelper/main/images/command_example.png)
+![Command Example](images/command_example.png)
 
 Example output:
-![Installation Output](https://raw.githubusercontent.com/Silletr/LazyDevHelper/main/images/output_example.png)
-
-## Status
-Want to see status of plugin at any day? ![Thats file for u](STATUS.md)
-
+![Installation Output](images/output_example.png)
