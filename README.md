@@ -20,7 +20,7 @@
 
 ## Video example
 
-![Video example of commands](https://github.com/Silletr/Silletr.github.io/blob/d9e3c54e522c284fb79b37440ef308db7ae97687/images/example.gif)
+![Video example of commands](/images/example.gif)
 
 ## Introduction
 
