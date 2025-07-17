@@ -1,3 +1,3 @@
 theme: jekyll-theme-minimal
 title: LazyDevHelper
-description: Too lazy for write "pip install -r requirements.txt", or "cargo add ...".. or maybe.. "luarocks install .." and writing it to requirements file? Thats sile, and plugin for neovim for you
+description: Too lazy for write "pip install -r requirements.txt", or "cargo add ...".. or maybe.. "luarocks install .." and writing it to requirements file? Thats site and plugin for neovim for you!
