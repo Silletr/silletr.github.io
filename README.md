@@ -48,7 +48,12 @@ And plugin have Discord channel [from now](https://discord.gg/QnthFV3Zgp)
 ### Installation Methods
 ## Install using Packer
 ```lua
-use 'Silletr/LazyDevHelper'
+  use {
+    'Silletr/LazyDevHelper',
+    config = function()
+      require("LazyDeveloperHelper")
+    end
+  }
 ```
 ## Usage
 Command example:
