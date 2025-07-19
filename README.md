@@ -2,7 +2,7 @@
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.11+-blue)](https://www.python.org)
-[![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
+[![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=rounded-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/44b13cb1-cb19-479f-ad38-2838f2dc7618/deploy-status)](https://app.netlify.com/projects/lazydevhelper/deploys)
 
