@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lazy Developer WebSite</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" 
-        href="style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
+
 <body>
   <header class="header">
-  	<h1>Lazy Developer Helper</h1>
-	</header>
+    <h1>Lazy Developer Helper</h1>
+  </header>
+  <div id="hello-btn1">
+    <button id="hello-btn">Say Hello</button>
+    <script>
+      document.getElementById('hello-btn').onclick = () =>
+        alert('Hello from Lazy Developer!');
+    </script>
+  </div>
+  <center>
+    <h2 style="margin-bottom: 50px;">Hello! You Are in main Website of Lazy Developer Helper - NeoVim plugin for
+      auto-installing and auto-adding libs!</h2>
+  </center>
 
-  <button id="hello-btn">Say Hello</button>
-  <script>
-    document.getElementById('hello-btn').onclick = () =>
-      alert('Hello from Lazy Developer!');
-  </script>
-	<h2>Hello! You Are in main Website of Lazy Developer Helper - NeoVim plugin for auto-installing and auto-adding libs!</h2>
-	<h2>There is: </h2>
-  <h3>GIF-demonstration all commands of plugin:</h3>
-  <img src="image/example.gif">
+  <div id="main-head">
+    <t style="padding:0px; font-size:20px; font-weight:bold;">GIF-demonstration all commands of plugin:</t>
+    <img style="margin-top:25px;" src="image/example.gif">
+  </div>
   <h1>Interested? Stay with me and know more!</h1>
-  <footer>
-		<a class="link" href="pages/about_me.html"><i class="fas fa-user"></i> About plugin creator</a>
-		<a class="link" href="pages/about_plugin.html"><i class="fas fa-puzzle-piece"></i> About plugin at all</a>
-		<a class="link" href="pages/usefully_links.html"><i class="fas fa-link"></i> Useful links</a>
+  <center>
+    <footer>
+      <a class="links1" href="about_me.html"><i class="fa-solid fa-user-tie"></i> About plugin creator</a>
+      <a class="links1" href="about_plugin.html"><i class="fa-solid fa-file"></i> About plugin at all</a>
+      <a class="links1" href="usefully_links.html"><i class="fa-solid fa-link"></i>Useful links</a>
 
-    <p>Made with 🧠 and ☕ by Silletr</p>
-  </footer>
 
+      <p>Made with 🧠 and ☕ by Silletr</p>
+    </footer>
+  </center>
 </body>
+
 </html>
