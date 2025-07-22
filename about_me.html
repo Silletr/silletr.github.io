@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,14 +38,27 @@
   </style>
 >>>>>>> e09ca95 (	modified:   pages/about_me.html):pages/about_me.html
 </head>
+
 <body>
   <h1><b>Lazy Developer Helper - Biography</b></h1>
+  <button id="back-btn">Turn back to Main page</button>
+  <script>
+    document.getElementById('back-btn').onclick = window.location = "change()";
+    <a class="link" href="index.html"> <i class="fas fa-user"></i> Go back to main page</a>
+  </script>
   <ul>
     <li>1. Name – Igor</li>
     <li>2. Role – Hardcore lone dev with caffeine soul</li>
     <li>3. Age - No </li>
     <li>3. GitHub Page - </li>
-      <button onclick="window.open('https://github.com/Silletr', '_blank')">Go to GitHub</button>
+    <button onclick="window.open('https://github.com/Silletr', '_blank')">Go to GitHub</button>
   </ul>
+  <script>
+    function change() {
+      window.location = "index.html";
+
+    }
+  </script>
 </body>
+
 </html>
