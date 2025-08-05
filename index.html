@@ -1,51 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lazy Developer WebSite</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LazyDeveloperHelper</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+  body {
+    margin: 0; padding: 0;
+    background-color: #121212;
+    color: #ccc;
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    padding: 1rem 2rem;
+    background: #1f1f1f;
+    border-bottom: 1px solid #333;
+    border-radius: 0 0 12px 12px;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  header p {
+    margin: 0.2rem 0 0 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #888;
+  }
+  main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .btn-github {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #ccc;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  .btn-github:hover {
+    background: #555;
+  }
+  .downloads {
+    margin-top: 3rem;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #444;
+    box-shadow: 0 0 10px #222 inset;
+  }
+  .downloads iframe {
+    width: 100%;
+    height: 100px;
+    border: none;
+    transform: scale(1.25);
+    transform-origin: top left;
+    pointer-events: none;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  footer {
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #555;
+    border-top: 1px solid #333;
+    background: #1f1f1f;
+    border-radius: 12px 12px 0 0;
+  }
+  @media (max-width: 600px) {
+    main {
+      padding: 1rem;
+    }
+    header, footer {
+      padding: 1rem;
+    }
+  }
+</style>
 </head>
-
 <body>
-    <header class="header">
-        <h1>Lazy Developer Helper</h1>
-        <section id="description-section">
-            <h2>LazyDeveloperHelper - Too lazy for write "pip install -r requirements.txt", or "cargo add ...".. or maybe.. "luarocks install .." and writing it to requirements file? That's site and plugin for neovim for you!</h2>
-        </section>
-    </header>
-
-    <main>
-        <div id="hello-btn-container">
-            <button id="hello-btn">Say Hello</button>
-        </div>
-
-        <center>
-            <h2>Hello! You Are in main Website of Lazy Developer Helper - NeoVim plugin for auto-installing and auto-adding libs!</h2>
-        </center>
-
-        <section id="demo-section">
-            <h3>GIF-demonstration all commands of plugin:</h3>
-            <img src="image/example.gif" alt="Plugin demonstration GIF">
-        </section>
-
-        <h1>Interested? Stay with me and know more!</h1>
-        <footer>
-            <nav class="footer-links">
-                <a href="about_me.html"><i class="fas fa-user"></i> About plugin creator</a>
-                <a href="about_plugin.html"><i class="fas fa-puzzle-piece"></i> About plugin at all</a>
-                <a href="usefully_links.html"><i class="fas fa-link"></i> Useful links</a>
-            </nav>
-            
-            <p>Made with 🧠 and ☕ by Silletr</p>
-        </footer>
-    </main>
-
-    <script>
-        document.getElementById('hello-btn').onclick = () =>
-            alert('Hello from Lazy Developer!');
-    </script>
+  <header>
+    <h1>LazyDeveloperHelper</h1>
+    <p>Plugin manager for lazy devs</p>
+    <a href="https://github.com/Silletr/LazyDeveloperHelper" target="_blank" class="btn-github">View on GitHub</a>
+  </header>
+  <main>
+    <h2>Live Vim.org downloads</h2>
+    <div class="downloads">
+      <iframe src="https://www.vim.org/scripts/script.php?script_id=6156" scrolling="no"></iframe>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 LazyDeveloperHelper — Made by Silletr. All rights reserved.
+  </footer>
 </body>
 </html>
