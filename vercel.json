@@ -1,17 +1,15 @@
 {
   "builds": [
     {
-      "src": "Gemfile",
-      "use": "@vercel/ruby"
-    },
-    {
-      "src": "_config.yml",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "_site" }
+      "src": "build.sh",
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/_site/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "/_site/$1"
+    }
   ]
 }
 
